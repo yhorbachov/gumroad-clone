@@ -17,7 +17,7 @@ defmodule GumroadWeb.Router do
   scope "/", GumroadWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    get "/", Controllers.Home, :index
   end
 
   # Other scopes may use custom stacks.
