@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :gumroad, Gumroad.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   hostname: "localhost",
   database: "gumroad_dev",
   stacktrace: true,
