@@ -10,10 +10,16 @@
     <a>Discover</a>
   </nav>
   <div id="menu-secondary" class="border-l-2 border-black flex">
-    <a class="cursor-pointer flex h-full items-center justify-center px-14 hover:bg-pink-400">
+    <a
+      href={~p"/users/log_in"}
+      class="cursor-pointer flex h-full items-center justify-center px-14 hover:bg-pink-400"
+    >
       Login
     </a>
-    <a class="cursor-pointer flex h-full items-center justify-center px-14 border-l-2 border-black bg-black text-white hover:bg-pink-400 hover:text-black">
+    <a
+      href={~p"/users/register"}
+      class="cursor-pointer flex h-full items-center justify-center px-14 border-l-2 border-black bg-black text-white hover:bg-pink-400 hover:text-black"
+    >
       Start Selling
     </a>
   </div>
